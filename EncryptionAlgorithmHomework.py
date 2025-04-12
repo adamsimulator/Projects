@@ -1,6 +1,7 @@
 import random
 import string
 
+#TR
 # Rüzgar Batu Kurt tarafından yazılmıştır.
 # Bu kod, bir mesajı şifrelemek ve çözmek için bir anahtar kullanır.
 # Kullanıcıdan alınan mesaj, belirli bir karakter kümesi kullanılarak şifrelenir ve daha sonra çözülür.
@@ -13,6 +14,19 @@ import string
 # Öğrenmeye ve geliştirmeye devam ediyorum.
 # Eğlenceli bir deneyim olması dileğiyle.
 # :)-------------------------------------------------------------------------------------------------------------------
+#ENG
+# Written by Rüzgar Batu Kurt.
+# This code uses a key to encrypt and decrypt a message.
+# The message received from the user is encrypted using a specific character set and then copied.
+# The key is created by mixing the character set.
+# The message received from the user is encrypted with the key and then copied.
+# The key, passwords and fragments received from the user are used.
+# This code is written in the Python programming language and is an example to understand basic encryption software.
+# It can be run on Phyton 3.10.0 and above.
+# I am new to Python and software in general, please do not question too much beyond the limit of the code. I am aware of the complicated elements.
+# I am learning and continuing to develop my skills.
+# I wish you a fun experience.
+# :)------------------------------------------------------------------------------------------------------
 
 
 chars = " " + string.punctuation + string.ascii_letters + string.digits
