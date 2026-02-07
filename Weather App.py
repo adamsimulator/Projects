@@ -1,8 +1,8 @@
 import requests
 
-#API key: ae4ec26fc343f04a223249613629346f
 
-API_KEY = "ae4ec26fc343f04a223249613629346f"
+
+API_KEY = #PUT KEY HERE#
 city = str(input("Enter city name:")).lower()
 
 default_url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}"
@@ -27,4 +27,5 @@ print(f"Temperature: {temp}")
 print(f"Humidity: {humidity}")
 print(f"Wind Speed: {wind_speed}")
 print(f"Weather description: {weatherDesc}")
+
 
