@@ -46,7 +46,7 @@ app.title("Calculator")
 try:
     logo = PhotoImage(file='a.png')
     app.iconphoto(True, logo)
-except FileNotFoundError:
+except:
     pass
 app.config(bg="#000000")
 
